@@ -1,0 +1,11 @@
+[requires]
+poco/1.11.2
+
+[generators]
+cmake_find_package
+
+[options]
+
+[imports]
+bin, * -> ./bin
+lib, *.so* -> ./lib

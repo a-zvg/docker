@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export OPENSSL_ENGINES=../_result/lib/engines-1.1/
+export LD_LIBRARY_PATH=../_result/lib:../_result/postgresql/lib
+
+../_result/bin/pki_service_2 /home/user/r602_pki_service_2/config/pki_service_softtoken.config
