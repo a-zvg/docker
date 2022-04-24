@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -ex
+
+docker run -it --rm -v $PWD/..:$PWD/.. -w $PWD --name build buildbox11:pkis2 bash -c 'make -j5'
